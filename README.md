@@ -1,3 +1,5 @@
+markdown
+Copy code
 # Digit Recognizer
 
 This repository contains a project that uses a neural network to recognize handwritten digits from the MNIST dataset, obtained from the Kaggle Digit Recognizer competition. The model is implemented using a simple Artificial Neural Network (ANN) and trained to classify digits from 0 to 9.
@@ -40,7 +42,6 @@ You can install the required libraries using pip:
 
 ```bash
 pip install numpy matplotlib
-
 Installation
 Clone the repository:
 
