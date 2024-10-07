@@ -1,5 +1,3 @@
-markdown
-Copy code
 # Digit Recognizer
 
 This repository contains a project that uses a neural network to recognize handwritten digits from the MNIST dataset, obtained from the Kaggle Digit Recognizer competition. The model is implemented using a simple Artificial Neural Network (ANN) and trained to classify digits from 0 to 9.
@@ -34,7 +32,6 @@ The model is a simple feedforward neural network with the following layers:
 
 ## Requirements
 To run this project, you need the following dependencies installed:
-
 - `numpy`
 - `matplotlib`
 
@@ -42,41 +39,4 @@ You can install the required libraries using pip:
 
 ```bash
 pip install numpy matplotlib
-Installation
-Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/Pajju54/Digit-Recognizer.git
-Navigate to the project directory:
-
-bash
-Copy code
-cd Digit-Recognizer
-Install the necessary dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt
-Usage
-Training the Model
-To train the neural network on the MNIST dataset:
-
-Download the train.csv file from the Kaggle Digit Recognizer Dataset page.
-Place the train.csv file in the project directory.
-Run the Python script to start training:
-bash
-Copy code
-python ANN.py
-The script will output the training accuracy at regular intervals and save the trained weights.
-
-Testing the Model
-To test a specific image from the training set, you can use the following command:
-
-python
-Copy code
-test_prediction(index, W1, b1, W2, b2)
-Where index refers to the index of the image in the dataset.
-
-Results
-The model achieves an accuracy of approximately X% on the Kaggle training data after Y iterations. [Include actual results after running the model].
