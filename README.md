@@ -63,7 +63,8 @@ test_prediction(index, W1, b1, W2, b2)
 Where index refers to the index of the image in the dataset.
 
 ## Results
-The model achieves an accuracy of approximately 95% on the Kaggle training data after 500 iterations. [Iteration:  0
+The model achieves an accuracy of approximately 95% on the Kaggle training data after 500 iterations.
+[Iteration:  0
 Accuracy:  0.08119512195121951
 Iteration:  100
 Accuracy:  0.9282439024390244
